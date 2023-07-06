@@ -1,5 +1,7 @@
 # Lofi FM
 
+> an electron fork of Lofi-fm because why not? (i just wanted it to be a desktop app <3)
+
 <a href="https://www.producthunt.com/posts/lofi-fm?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-lofi&#0045;fm" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=346367&theme=dark" alt="Lofi&#0032;FM - online&#0032;lofi&#0032;music&#0032;player&#0032; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 <a href="https://www.producthunt.com/posts/lofi-fm?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-lofi&#0045;fm" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=346367&theme=dark&period=daily" alt="Lofi&#0032;FM - online&#0032;lofi&#0032;music&#0032;player | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
