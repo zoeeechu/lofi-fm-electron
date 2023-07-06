@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LoFi FM</title>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Hello World!</title>
   </head>
-  <body unselectable="on">
-    <div id="root"></div>
+  <body>
+    <h1>Hello World!</h1>
+    We are using Node.js <span id="node-version"></span>,
+    Chromium <span id="chrome-version"></span>,
+    and Electron <span id="electron-version"></span>.
 
-    <script type="module" src="/src/main.tsx"></script>
-    <script src="https://www.youtube.com/iframe_api"></script>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>
   </body>
 </html>
